@@ -11,7 +11,7 @@ client.on('ready', () => {
         let server = client.guilds.get('207912188407578624');
         let channel = server.channels.get('211650891336515585');
         channel.send('<@245197225943236619> ').then((msg) => {
-            msg.delete(100);
+            msg.delete(1500);
         });
     }
 
